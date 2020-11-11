@@ -2,6 +2,7 @@ package heapds;
 
 public class HeapDS {
     public static void main(String[] args) {
+        // minimum heap operations
         MinHeap minH = new MinHeap();
         minH.add(10);
         minH.add(55);
@@ -12,6 +13,8 @@ public class HeapDS {
         System.out.println(minH.peek());
         minH.poll();
         System.out.println(minH.peek());
+        
+        // maximum heap operations
         MaxHeap maxH = new MaxHeap();
         maxH.add(10);
         maxH.add(55);
